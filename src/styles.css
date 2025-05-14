@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+
+.titoloHero{
+    color: #E0A96D !important;
+    font-weight: 700;
+}
+
+.backgroundOrange{
+    background-color: #E0A96D;
+}
+
+.formRicerca{
+    width:100%;    
+}
+
+#formRicerca{
+    border-radius: 22px;
+    padding: 25px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.25);
+    width: 80%;
+    background-color:white;
+}
+
+.hrForm{
+  height: 5px;
+  background-color: #DDDDDD;
+  border: none;
+  border-radius:3px;
+}
+
+html, body {
+  margin: 0;
+  background-color: #E8E8E8; /* Cambia questo colore con quello che desideri */
+}
+
+.container-custom {
+  max-width: 1650px; /* Puoi aumentare o diminuire questo valore a piacere */
+  margin: 0 auto;     /* Centra il contenitore orizzontalmente */
+  padding: 0 20px;    /* Spazio dai bordi */
+}
+
+a{
+  text-decoration:none;
+}

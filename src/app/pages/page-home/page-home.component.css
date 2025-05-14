@@ -1,0 +1,42 @@
+h15{
+    font-size: 15px;
+}
+
+#titolo{
+    color: #E0A96D;
+}
+
+#btnHome{ 
+ width: 350px; 
+}
+
+#btnLogin{
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid #E0A96D !important;
+    color: black;
+}
+
+#btnLogin:hover{
+    width: 150px;    
+    border: 1px solid #E0A96D !important;
+    color: white;
+    background-color: #E0A96D !important;
+}
+
+#btnRegistrati{
+    width: 150px;
+    color: white;
+    border-radius: 10px;
+}
+
+#btnRegistrati:hover{
+    width: 150px;
+    color: black;
+}
+
+#btnHome i{
+    font-size:18px;
+    margin-left: 3px;
+}
+

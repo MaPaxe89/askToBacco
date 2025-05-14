@@ -1,0 +1,19 @@
+<div class="container-custom mt-5">
+    
+        <div class="row ">
+            <div class="col-6">
+                <span><app-mini-titolo [miniTitolo]="nomeMiniTitolo"></app-mini-titolo></span>
+                <h1 class="titoloHero">{{heroTitle}}</h1>
+                <p>Indicaci quali vini vuoi degustare e noi ti indicheremo l’ordine esatto di servizio...</p>
+                <div id="btnHome" class="gap-3 d-flex justify-content-start"> 
+                    <button type="submit"  id="btnLogin" class="btn bg-transparent">Login<i class="material-icons align-middle">login</i></button>
+                    <button type="submit" id="btnRegistrati" class="btn backgroundOrange">Registrati<i class="material-icons align-middle">person</i></button>
+                </div>
+            </div>
+
+            <div class="col-6">
+            <app-form-servizio-ricerca></app-form-servizio-ricerca> 
+            </div>
+        </div>
+    
+</div>

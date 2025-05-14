@@ -1,0 +1,76 @@
+.suggestion-container {
+    position: relative;
+  }
+  
+  .input-suggestion {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .suggestion-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    z-index: 999;
+  }
+  
+  .suggestion-item {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .suggestion-item:hover {
+    background-color: #f0f0f0;
+  }
+
+  #formRicerca input:hover{
+      border: 1px solid #82BF26;
+  }
+
+  .btnGreen{
+    background-color:#82BF26;
+  }
+
+  .btnOption{
+    width:70%;
+    border-radius:20px;
+    background-color:#E8E8E8;
+    border: 1px solid #E0A96D;
+    height: 50px;
+    line-height: 50px;
+    align-content: center;
+    padding-left:20px;
+  }
+
+  .btnOption i{
+    line-height:50px;
+    padding-right:20px;
+    font-size:30px;
+    color:#E0A96D;
+  }
+
+  
+  #formRicerca input:focus{
+      border-color: #82BF26 !important;
+      
+      box-shadow: 0px 0px 5px #82BF26 !important;
+  }
+
+  .pallino{
+    border-radius: 50%;
+    background-color: #82BF26;
+    width: 30px;
+    height: 30px;   
+    line-height: 30px;
+    color: white;
+    font-size: 15px;
+  }

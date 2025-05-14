@@ -1,0 +1,60 @@
+
+<div class="container-fluid" id="formRicerca">
+  <p class="text-center">Cerca i tuoi vini</p>
+  <hr class="hrForm">
+  <form class="formRicerca"  >
+      <div class="mb-3 suggestion-container d-flex gap-2 align-items-center">
+        <div class="pallino align-middle text-center">1</div>      
+        <input type="text" name="query" class="form-control input-seggestion" [(ngModel)]="query" id="vinoUno" (input)="onSearch()" placeholder="nome vino" aria-describedby="emailHelp" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+        <ul *ngIf="suggerimenti.length > 0" class="suggestion-list">
+          <li
+            *ngFor="let vino of suggerimenti"
+            (click)="onSelect(vino)"
+            class="suggestion-item ist-group-item list-group-item-action active"
+          >
+            NOME:{{ vino.nome }} - CANTINA: 
+            {{ vino.cantina }}
+          </li>
+        </ul>      
+      </div>
+      <div class="mb-3 suggestion-container d-flex gap-2 align-items-center">
+        <div class="pallino align-middle text-center">1</div>      
+        <input type="text" name="query" class="form-control input-seggestion" [(ngModel)]="query" id="vinoDue" (input)="onSearch()" placeholder="nome vino" aria-describedby="emailHelp" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+        <ul *ngIf="suggerimenti.length > 0" class="suggestion-list">
+          <li
+            *ngFor="let vino of suggerimenti"
+            (click)="onSelect(vino)"
+            class="suggestion-item ist-group-item list-group-item-action active"
+          >
+            NOME:{{ vino.nome }} - CANTINA: 
+            {{ vino.cantina }}
+          </li>
+        </ul>      
+      </div>
+      <div class="mb-3 suggestion-container d-flex gap-2 align-items-center">
+        <div class="pallino align-middle text-center">1</div>      
+        <input type="text" name="query" class="form-control input-seggestion" [(ngModel)]="query" id="vinoTre" (input)="onSearch()" placeholder="nome vino" aria-describedby="emailHelp" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+        <ul *ngIf="suggerimenti.length > 0" class="suggestion-list">
+          <li
+            *ngFor="let vino of suggerimenti"
+            (click)="onSelect(vino)"
+            class="suggestion-item ist-group-item list-group-item-action active"
+          >
+            NOME:{{ vino.nome }} - CANTINA: 
+            {{ vino.cantina }}
+          </li>
+        </ul>      
+      </div>
+      
+    
+      <button type="submit"  class="btn btnGreen ">Genera sequenza</button>
+
+      <hr class="hrForm">
+      <div class="text-center mt-3 justify-content-between">
+        <a class="btnOption text-black text-decoration-none d-inline-flex  d-flex justify-content-between gap-2" [routerLink]="['cibo-e-vino']" id="btnOption">
+            Aggiungi più vini alla ricerca
+        <i class="material-icons">add_circle</i>
+  </a>
+</div>
+    </form>
+  </div>
