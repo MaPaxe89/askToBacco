@@ -6,6 +6,7 @@ import { PageCiboEVinoComponent } from './pages/page-cibo-e-vino/page-cibo-e-vin
 import { PageContattiComponent } from './pages/page-contatti/page-contatti.component';
 import { authGuard } from './auth/auth.guard';
 import { NotLoggedComponent } from './components/not-logged/not-logged.component';
+import { PageSequenzaComponent } from './pages/page-sequenza/page-sequenza.component';
 
 
 export const routes: Routes = [
@@ -37,5 +38,11 @@ export const routes: Routes = [
         path: "notLogged",
         component: NotLoggedComponent,
     },
+    {
+
+        path: "lista-ordinata",
+        component: PageSequenzaComponent,
+    },
+
 
 ];

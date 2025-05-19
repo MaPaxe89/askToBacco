@@ -1,13 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
 .titoloHero{
     color: #E0A96D !important;
-    font-weight: 700;
+    font-weight: 900;
+    letter-spacing: 2px;
 }
 
-.backgroundOrange{
-    background-color: #E0A96D;
-}
+
 
 .formRicerca{
     width:100%;    
@@ -21,6 +23,24 @@
     background-color:white;
 }
 
+/* css di semantica */
+
+html, body {
+  margin: 0;
+  background-color: #E8E8E8; /* Cambia questo colore con quello che desideri */
+  font-family: "Merriweather", serif;
+  
+}
+p, a, h5 {
+  letter-spacing: 1px;
+}
+
+a{
+  text-decoration:none;
+}
+
+
+
 .hrForm{
   height: 5px;
   background-color: #DDDDDD;
@@ -28,17 +48,51 @@
   border-radius:3px;
 }
 
-html, body {
-  margin: 0;
-  background-color: #E8E8E8; /* Cambia questo colore con quello che desideri */
-}
-
 .container-custom {
   max-width: 1650px; /* Puoi aumentare o diminuire questo valore a piacere */
   margin: 0 auto;     /* Centra il contenitore orizzontalmente */
   padding: 0 20px;    /* Spazio dai bordi */
+  min-height: 100vh;
 }
 
-a{
-  text-decoration:none;
+/*utility*/
+.reset-spazi{
+  margin: 0px;
+  padding: 0px;
 }
+
+.backgroundOrange{
+    background-color: #E0A96D;
+}
+
+.colorOrange{
+  color: #E0A96D;
+}
+
+.backgroundGreen{
+    background-color: #82BF26;
+}
+
+#submit:hover{
+    background-color:rgb(97, 149, 20);
+}
+
+#reset:hover{
+    background-color:rgb(129, 28, 28)
+}
+
+
+.colorGreen{
+  color: #82BF26;
+}
+
+.backgroundRed{
+  background-color:rgb(184, 0, 0)
+}
+
+button{
+  font-size: 13px !important;
+
+}
+
+
