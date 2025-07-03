@@ -1,11 +1,12 @@
-<div class="row align-items-center altezza-item ">
-    <div id="position" class="col-2 backgroundOrange text-white text-center fs-2 fw-bold d-flex align-items-center justify-content-center">
-        <p class="">1</p>
+<h4>Ordine di servizio:</h4>
+<div class="row align-items-center altezza-item mb-5 "  *ngFor="let vino of vini; let i = index ">
+    <div  id="position" class="col-2 backgroundOrange text-white text-center fs-2 fw-bold d-flex align-items-center justify-content-center">
+        <p class="">{{i+1}}</p>
     </div>
-    <div id="name-vino"class="col-4 ">
-            <h5 class="fw-bold ">Vino Lugana</h5>
-            <p class="">nome della cantina</p>
+    <div id="name-vino" class="col-8 " >
+            <h5 class="fw-bold ">{{ vino.nome }}</h5>
+            <p class="">{{ vino.cantina }}</p>
     </div>
-    <div id="icona" class="col-6"><i class="material-icons align-items-center fs-2 colorOrange">arrow_right</i></div>
+    <div id="icona" class="col-1" (click)="selezionaVino(vino)" ><i class="material-icons align-items-center fs-2 colorOrange">arrow_right</i></div>
     <hr class="lunghezza-hr mt-3">
 </div>

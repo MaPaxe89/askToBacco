@@ -59,9 +59,7 @@ export class FormServizioRicercaComponent {
   reset(){    
       this.selectedVini = [];      
       console.log(this.selectedVini)
-  }
-
- 
+  } 
   
   generaSequenza() {
   const ids: number[] = this.selectedVini

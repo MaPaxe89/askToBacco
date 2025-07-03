@@ -2,8 +2,10 @@
 
 
     <div class="container d-flex justify-content-between">
-        <div class="col-6">
-            <app-vino-item-elenco></app-vino-item-elenco>
+        <div class="col-3">
+            <app-vino-item-elenco [vini]="vini" (vinoSelezionato)="onVinoSelezionato($event)"></app-vino-item-elenco>
         </div>
-        <div class="col-6">colonna 2</div>
+        <div class="col-8">
+            <app-single-vino-sequence [vino]="vinoSelezionato" ></app-single-vino-sequence>
+        </div>
     </div>

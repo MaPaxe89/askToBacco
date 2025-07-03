@@ -10,6 +10,8 @@ export interface Vino{
     freschezza?:  number;
     complessita?:  number;
     struttura?:  number;
+    anno?: number;
+    path?: string;
 
 
 

@@ -1,0 +1,17 @@
+li{
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+ul{
+    padding-left: 0;
+}
+
+p::first-letter {
+  font-size: 3em;      /* rende la lettera più grande */
+  font-weight: bold;   /* opzionale: la rende grassetto */
+  float: left;         /* opzionale: effetto "capolettera" */
+  line-height: 1;      /* allineamento verticale migliore */
+  margin-right: 4px;
+  text-transform: uppercase; /* spazio accanto alla lettera */
+}

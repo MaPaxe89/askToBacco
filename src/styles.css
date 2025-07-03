@@ -9,10 +9,18 @@
     letter-spacing: 2px;
 }
 
+.rettangolo{
+   border-radius: 22px;
+    padding: 25px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    background-color: white;
+}
 
 
 .formRicerca{
-    width:100%;    
+    width:100%;  
+      
 }
 
 #formRicerca{
@@ -95,4 +103,10 @@ button{
 
 }
 
+.imageee{
+ width:170px;
+}
 
+img{
+  max-width:100%;
+}

@@ -1,0 +1,34 @@
+<div class="rettangolo container">
+    <div class="title" >
+            <h3>Posiziones</h3>
+    </div>
+    <div class="d-flex justify-content-around">
+        <div class="col-4 imageee d-flex justify-content-around">
+            <img src={{vino?.path}} alt="Vino Lugana">
+         </div>
+        <div class="container">
+            <h3>{{vino?.nome}}</h3>
+            <hr>
+            <div class="col-8 d-flex ">
+                <div class="col-6">
+                    <ul>
+                        <li><strong>CANTINA:</strong> {{ vino?.cantina }}</li>
+                        <li><strong>ANNO:</strong> {{ vino?.anno }}</li>
+                        <li><strong>REGIONE:</strong> {{ vino?.regione }}</li>                    
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <ul>
+                        <li><strong>PREZZO:</strong> {{ vino?.prezzo }}</li>
+                        <li><strong>FRESCHEZZA:</strong> {{ vino?.freschezza }}</li>
+                        <li><strong>COMPLESSITA:</strong> {{ vino?.complessita }}</li>                    
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="descrizione">
+                <p>{{vino?.descrizione}}</p>
+            </div>
+        </div>
+    </div>
+</div>
