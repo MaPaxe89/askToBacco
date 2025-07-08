@@ -7,6 +7,8 @@ import { PageContattiComponent } from './pages/page-contatti/page-contatti.compo
 import { authGuard } from './auth/auth.guard';
 import { NotLoggedComponent } from './components/not-logged/not-logged.component';
 import { PageSequenzaComponent } from './pages/page-sequenza/page-sequenza.component';
+import { RegisterComponent } from './components/register/register.component';
+import { PageLoginComponent } from './pages/page-login/page-login.component';
 
 
 export const routes: Routes = [
@@ -32,6 +34,7 @@ export const routes: Routes = [
 
         path: "contatti",
         component: PageContattiComponent,
+        canActivate: [authGuard]
     },
     {
 
@@ -42,6 +45,16 @@ export const routes: Routes = [
 
         path: "lista-ordinata",
         component: PageSequenzaComponent,
+    },
+    {
+
+        path: "register",
+        component: RegisterComponent,
+    },
+    {
+
+        path: "login",
+        component: PageLoginComponent,
     },
 
 

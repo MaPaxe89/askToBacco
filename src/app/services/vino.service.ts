@@ -22,7 +22,7 @@ export class VinoService {
   }
 
     // user scrive in input un vino
-  // chiama direttamente il .ts del componente dove chiama la onSearch con controllo sull imput e si iscrive all'evento del vinoService intercettando la rispota
+  // chiama direttamente il .ts del componente dove chiama la onSearch con controllo sull input e si iscrive all'evento del vinoService intercettando la rispota
   // vino service chiama il be, aspettando la risposta con observable e la rimanda al subscribe si onSearch
 
   // genera la sequenza in ordine 

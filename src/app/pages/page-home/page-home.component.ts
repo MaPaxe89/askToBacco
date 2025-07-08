@@ -3,11 +3,12 @@ import { MiniTitoloComponent } from "../../components/mini-titolo/mini-titolo.co
 import { FormServizioRicercaComponent } from "../../components/form-servizio-ricerca/form-servizio-ricerca.component";
 import { Constants } from '../../costants/constants';
 import { VinoItemElencoComponent } from "../../components/vino-item-elenco/vino-item-elenco.component";
+import { RouterModule } from '@angular/router';
 
 
 @Component({
   selector: 'app-page-home',
-  imports: [MiniTitoloComponent, FormServizioRicercaComponent],
+  imports: [MiniTitoloComponent, FormServizioRicercaComponent, RouterModule],
   templateUrl: './page-home.component.html',
   styleUrl: './page-home.component.css'
 })
