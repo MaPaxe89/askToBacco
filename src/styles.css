@@ -12,7 +12,7 @@
     /* color:rgb(241, 165, 83) !important; */
     font-weight: 900;
     letter-spacing: -3px;
-    font-size:85px;
+    font-size:106px;
     color: white;
 }
 
@@ -84,7 +84,7 @@ a{
   max-width: 1650px; /* Puoi aumentare o diminuire questo valore a piacere */
   margin: 0 auto;     /* Centra il contenitore orizzontalmente */
   padding: 0 20px;    /* Spazio dai bordi */
-  min-height: 100vh;
+  
   margin-top: 150px;
 }
 
@@ -110,9 +110,7 @@ a{
     background-color: #E8E8E8;
 }
 
-#submit:hover{
-    background-color:rgb(50, 121, 82);
-}
+
 
 #reset:hover{
     background-color:rgb(129, 28, 28)
@@ -144,45 +142,61 @@ p{
 }
 
 .btnVuotoGreen{
-    width: 100px;
+    
     border-radius: 10px;
-    border: 1px solid #4EBD80 !important;
+    border: 1px solid #4EBD80 ;
     color: #4EBD80 ;
     font-size: 16px;
     font-weight: bold;
-    padding: 5px;
+    
     
 }
 
 .btnVuotoGreen:hover{
-    width: 100px;    
-    border: 1px solid #4EBD80 !important;
+      
+    border: 1px solid #4EBD80 ;
     color: white;
-    background-color: #4EBD80 !important;
+    background-color: #4EBD80 ;
 }
 
 .btnPienoGreen{
     
     border-radius: 10px;
-    border: 1px solid #4EBD80 !important;
-    color: #4EBD80 ;
+    border: 1px solid #4EBD80 ;
+    color: white ;
     font-size: 16px;
     font-weight: bold;
-    padding: 5px;
-    background-color: #4EBD80 !important;
+    background-color: #4EBD80 ;
     
 }
 
 .btnPienoGreen:hover{
         
-    border: 1px solid #4EBD80 !important;
+    border: 1px solid #4EBD80 ;
     color: white;
-    background-color: #2f8556ff !important;
+    background-color: #2f8556ff ;
 }
 
+.btnPienoWhite{
+    
+    border-radius: 10px;    
+    color: black ;
+    font-size: 16px;
+    font-weight: bold;    
+    background-color: #ffffffff;
+    
+}
+
+.btnPienoWhite:hover{
+        
+    border: 1px solid #ffffffff;
+    color: white;
+    background-color: none;
+    
+}
 
 .formLogin{
-    width:50%;
+    width:35%;
     margin: 0 auto;        
 }
 
@@ -197,9 +211,9 @@ input{
     margin: 5px;
 }
 
-.altezzaRow{
-  height:100vh;
-}
+
+
+
 
 .textAction{
   font-weight:300;
