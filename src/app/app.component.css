@@ -1,18 +1,43 @@
 nav{
-    background-color: #2E1D1A;
-    height:80px;
+    
+    height:45px;
+    border-bottom: hsla(250, 3%, 0%, 0.075) 0 1px;
 }
 
 #menu li a {
     color:white;
-    font-weight: bold;
+    font-size: 15px;
+    
 }
 
 footer{
-    background-color: #2E1D1A;
+    
     height:40px;
 }
 
+.divider{
+    height: 60%;
+    width: 1px;
+    max-width: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 20%;
+    background: hsla(0, 0.00%, 100.00%, 0.2);
+    display: block;
+
+}
+
+.logo{
+    font-family: AbrilFatface;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.backgroundDark{
+    /* background: white; */
+}
 
 
 

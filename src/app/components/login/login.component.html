@@ -1,6 +1,15 @@
+
 <form (submit)="onLogin()">
-  <input [(ngModel)]="username" name="username" placeholder="Username" required />
-  <input [(ngModel)]="password" name="password" type="password" placeholder="Password" required />
-  <button type="submit">Login</button>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="text" [(ngModel)]="username" class="" name="username" placeholder="Username"  />  
+  </div>
+  
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" [(ngModel)]="password" class="" name="password" placeholder="Password" >
+  </div>
+
+  <button type="submit" class="btn btnGreen text-white">Login</button>
   <p *ngIf="errorMessage">{{ errorMessage }}</p>
 </form>

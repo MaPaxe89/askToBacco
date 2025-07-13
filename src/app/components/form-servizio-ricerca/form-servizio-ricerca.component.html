@@ -1,7 +1,7 @@
 
 <div class="container-fluid" id="formRicerca" >
   <p class="text-center">Cerca i tuoi vini</p>
-  <hr class="hrForm">
+
   <form class="formRicerca">
     <div class="modal-dialog modal-dialog-centered">
 
@@ -17,7 +17,7 @@
     (input)="onSearch(i)"
     [id]="'vino' + (i + 1)"
     name="query{{ i }}"
-    class="form-control input-seggestion"
+    class=" input-seggestion"
     placeholder="nome vino"
     data-bs-toggle="tooltip"
     data-bs-placement="top"
@@ -34,19 +34,15 @@
   </ul>
 </div>  
       <div class="d-flex justify-content-between">
-      <button type="submit" id="submit"  class="btn btnGreen text-white" (click)="generaSequenza()">
-        <p class="reset-spazi">Genera sequenza</p>
-      </button>
+      
       <button type="reset"  id="reset" class="btn  backgroundRed text-white" (click)="reset()">
         <p class="reset-spazi">reset campi</p>
       </button>
+      <button type="submit" id="submit"  class="btn btnPienoGreen text-white" (click)="generaSequenza()">Genera sequenza
+        
+      </button>
       </div>  
-      <hr class="hrForm">
-      <div class="text-center mt-3 justify-content-between">
-        <a class="btnOption text-black text-decoration-none d-inline-flex  d-flex justify-content-between gap-2" [routerLink]="['cibo-e-vino']" id="btnOption">
-            Aggiungi più vini alla ricerca
-        <i class="material-icons">add_circle</i>
-  </a>
-</div>
+
+
     </form>
   </div>

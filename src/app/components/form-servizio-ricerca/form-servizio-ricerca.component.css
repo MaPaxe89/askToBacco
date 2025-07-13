@@ -33,12 +33,10 @@
   }
 
   #formRicerca input:hover{
-      border: 1px solid #82BF26;
+      border: 1px solid #4EBD80;
   }
 
-  .btnGreen{
-    background-color:#82BF26;
-  }
+ 
 
   .btnOption{
     width:70%;
@@ -60,16 +58,19 @@
 
   
   #formRicerca input:focus{
-      border-color: #82BF26;      
+      border-color: #4EBD80;      
       box-shadow: 0px 0px 5px #82BF26 ;
   }
 
   .pallino{
     border-radius: 50%;
-    background-color: #82BF26;
+    background-color: #4EBD80;
     width: 30px;
     height: 30px;   
     line-height: 30px;
     color: white;
     font-size: 15px;
   }
+
+
+  

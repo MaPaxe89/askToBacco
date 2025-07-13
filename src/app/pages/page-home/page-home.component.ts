@@ -4,11 +4,12 @@ import { FormServizioRicercaComponent } from "../../components/form-servizio-ric
 import { Constants } from '../../costants/constants';
 import { VinoItemElencoComponent } from "../../components/vino-item-elenco/vino-item-elenco.component";
 import { RouterModule } from '@angular/router';
+import { ActionComponent } from "../../components/action/action.component";
 
 
 @Component({
   selector: 'app-page-home',
-  imports: [MiniTitoloComponent, FormServizioRicercaComponent, RouterModule],
+  imports: [MiniTitoloComponent, FormServizioRicercaComponent, RouterModule, ActionComponent],
   templateUrl: './page-home.component.html',
   styleUrl: './page-home.component.css'
 })

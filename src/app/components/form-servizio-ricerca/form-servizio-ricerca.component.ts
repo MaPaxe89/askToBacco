@@ -10,7 +10,7 @@ import { Vino } from '../../models/vino';
 @Component({
   selector: 'app-form-servizio-ricerca',
   standalone: true,
-  imports: [CommonModule, RouterLink, FormsModule,HttpClientModule],
+  imports: [CommonModule, FormsModule,HttpClientModule],
   templateUrl: './form-servizio-ricerca.component.html',
   styleUrl: './form-servizio-ricerca.component.css'
 })
